@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(128, 117, 128, 0.315);
+
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 107, 11);
+
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(34, 29, 32, 0.123);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(36, 7, 23);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid rgba(38, 4, 39, 0.533);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(211, 189, 202);
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgba(10, 8, 9, 0.933)
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(29, 24, 27);
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solidrgba(26, 3, 17, 0.6);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(172, 163, 168);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 250px;
+}
+
+button:hover {
+    background-color: rgba(44, 14, 28, 0.333);
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgba(107, 9, 63, 0.133);
+    border-radius: 8px;
+    background-color: rgba(34, 29, 32, 0.123);
+    box-shadow: 0 4px 8px rgb(36, 7, 23);
+}
+
+#resumeOutput h2 {
+    color: rgb(8, 8, 8);
+
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgba(107, 9, 63, 0.133);
+    box-shadow: 0 4px 8px rgb(36, 7, 23);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
